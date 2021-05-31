@@ -1,0 +1,138 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Hiragino Maru Gothic ProN';
+}
+
+.btn_wrapper {
+  margin: 20px 5px;
+}
+
+.btn {
+  font-family: 'Hiragino Maru Gothic ProN';
+  border-radius: 10px;
+  border: solid 0.1px;
+  background-color: springgreen;
+  padding: 3px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.brank {
+  background-color: rgb(222, 221, 221);
+}
+
+.event {
+  background-color: rgb(233, 35, 35);
+  position: relative;
+}
+
+.standby {
+  background-color: rgb(135, 254, 254);
+  position:relative;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 1px 4px ;
+  border: solid 0.1px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(243, 237, 132);
+}
+
+.date {
+  text-align: center;
+}
+
+td {
+  background-color: snow;
+  border-radius: 5px;
+  border: solid 0.1px;
+  padding: 3px 5px ;
+  height: 30px;
+  font-size: 8px;
+}
+
+.standby_title {
+  border: solid 0.1px;
+  border-radius: 10px;
+  z-index: 20;
+  width:auto;
+  padding:5px;
+  font-size:16px;
+  margin:-30px 0 0;
+  background-color: rgb(135, 254, 254);
+  color: black;
+  position:absolute;
+  right:-160px;
+  top: 50%;
+}
+
+.event_title {
+  border: solid 0.1px;
+  border-radius: 10px;
+  z-index: 20;
+  width:auto;
+  padding:5px;
+  font-size:16px;
+  margin:-30px 0 0;
+  background-color: rgb(233, 35, 35);
+  color: white;
+  position:absolute;
+  right:-100px;
+  top: -220%;
+}
+
+.announce {
+  text-align: center;
+  padding: 0 5px;
+}
+
+.standby_title p{
+  margin: 0;
+}
+
+.event_title p{
+  margin: 0;
+}
+
+.standby_content {
+  padding: 0 16px;
+  font-size: 14px;
+  color: red;
+}
+
+.event_content {
+  padding: 0 16px;
+  font-size: 14px;
+  color: yellow;
+}
+.index {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.standby_btn {
+  font-family: 'Hiragino Maru Gothic ProN';
+  border-radius: 3px;
+  border: solid 0.1px;
+  background-color: rgb(135, 254, 254);
+  padding: 3px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.event_btn {
+  font-family: 'Hiragino Maru Gothic ProN';
+  border-radius: 3px;
+  border: solid 0.1px;
+  background-color: rgb(233, 35, 35);
+  padding: 3px 10px;
+  text-decoration: none;
+  color: yellow;
+}

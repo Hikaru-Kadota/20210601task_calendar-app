@@ -1,0 +1,53 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Hiragino Maru Gothic ProN';
+}
+
+.btn_wrapper {
+  margin: 20px 5px;
+}
+
+.btn {
+  font-family: 'Hiragino Maru Gothic ProN';
+  border-radius: 10px;
+  border: solid 0.1px;
+  background-color: springgreen;
+  padding: 3px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.input_wrapper {
+  margin: 15px 0;
+}
+
+.input_container {
+  margin-left:20px;
+}
+
+input {
+  margin-left: 15px;
+  padding:5px;
+  border-radius: 10px;
+}
+
+.input_title {
+  margin-left: 30px;
+}
+
+.input_contact {
+  margin-left: 47px;
+}
+
+.input_memo {
+  margin-top: 50px;
+}
+
+.input_memo p{
+  margin-bottom: 0px;
+}
+
