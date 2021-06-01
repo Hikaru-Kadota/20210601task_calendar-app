@@ -84,8 +84,8 @@ td {
   background-color: rgb(233, 35, 35);
   color: white;
   position:absolute;
-  right:-100px;
-  top: -220%;
+  right:-160px;
+  top: 50%;
 }
 
 .announce {
